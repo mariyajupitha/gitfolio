@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mariya Jupitha | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body bgcolor="black" style="color:white;">
+
+    <nav class="navbar">
+        <h2 class="logo">Portfolio</h2>
+
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <button id="themeBtn" aria-label="Toggle Theme">
+            🌙
+        </button>
+    </nav>
+ 
+   
+    <section id="home" class="home">
+
+        <img src="profile.jpeg"
+             alt="Mariya Jupitha"
+             class="profile-img">
+
+        <h1>Mariya Jupitha</h1>
+
+        <h3>
+            I am
+            <span id="typing"></span>
+        </h3>
+
+        <p>
+            Passionate Data science  student interested in
+            Web Development, UI/UX Design and Software Engineering.
+        </p>
+
+        <a href="resume.pdf"
+           download
+           class="btn">
+           Download Resume
+        </a>
+
+    </section>
+
+    <section id="about">
+
+        <h2>About Me</h2>
+
+        <p>
+            I am a Computer Science student with strong interest in
+            Frontend Development, UI/UX Design and Web Technologies.
+            I enjoy building modern and responsive web applications.
+        </p>
+
+    </section>
+
+    
+    <section id="skills">
+
+        <h2>Skills</h2>
+
+        <div class="skill-box">
+
+            <div class="card">HTML</div>
+            <div class="card">CSS</div>
+            <div class="card">JavaScript</div>
+            <div class="card">Python</div>
+            <div class="card">Java</div>
+            <div class="card">UI/UX Design</div>
+
+        </div>
+
+    </section>
+
+    
+    <section id="projects">
+
+        <h2>Projects</h2>
+
+        <div class="project-container">
+
+            <div class="project-card">
+                
+
+                
+            </div>
+
+            <div class="project-card">
+                <h3>1.Portfolio Website</h3>
+
+                <p>
+                    Responsive personal portfolio developed
+                    using HTML, CSS and JavaScript.
+                </p>
+
+                <h3>2. Go-Kart GPS Tracking System</h3>
+                <p>Developed a real-time GPS tracking system for a Go-Kart using GPS tracking software and hardware components. • Integrated GPS module with ESP32/Arduino to capture and transmit live location data. • Programmed tracking logic using Python and displayed route data through a monitoring interface.</p>
+            </div>
+
+            
+
+        </div>
+
+    </section>
+
+    
+    <section id="contact">
+
+        <h2>Contact Me</h2>
+
+        <form id="contactForm">
+
+            <input
+                type="text"
+                id="name"
+                placeholder="Enter Your Name"
+                required>
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Enter Your Email"
+                required>
+
+            <textarea
+                id="message"
+                rows="5"
+                placeholder="Enter Your Message"
+                required></textarea>
+
+            <button type="submit">
+                Send Message
+            </button>
+
+            <p id="error"></p>
+
+        </form>
+
+    </section>
+
+   
+    <footer>
+
+        <p>
+            © 2026 Mariya Jupitha. All Rights Reserved.
+        </p>
+
+    </footer>
+
+   
+    <button id="topBtn">
+        ↑
+    </button>
+
+
+</body>
+</html>

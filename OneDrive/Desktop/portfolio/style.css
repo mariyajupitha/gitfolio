@@ -1,0 +1,110 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    color:red;
+    background-image:url("../tech-bg.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 50px;
+    background:black;
+}
+
+.nav-links{
+    display:flex;
+    list-style:none;
+}
+
+.nav-links li{
+    margin-left:20px;
+}
+
+.nav-links a{
+    color:white;
+    text-decoration:none;
+}
+
+
+.home{
+    text-align:center;
+    padding:100px 20px;
+}
+
+.profile-img{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    border:3px solid white;
+    object-fit:cover;
+}
+
+.home h1{
+    margin-top:20px;
+    color:yellow;
+    font-size:50px;
+}
+
+.home p{
+    margin-top:15px;
+    font-size:18px;
+}
+
+
+section{
+    padding:60px 20px;
+    text-align:center;
+}
+
+
+.card,
+.project-card{
+    background:rgba(255,255,255,0.1);
+    margin:10px;
+    margin-bottom: 10px;
+    padding:20px;
+    border-radius:20px;
+    display:inline-block;
+}
+
+
+form{
+    max-width:500px;
+    margin:auto;
+}
+
+input,
+textarea{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+    border:none;
+    border-radius:5px;
+}
+
+button{
+    padding:10px 20px;
+     border:none;
+    border-radius:5px;
+    
+}
+
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:black;
+}
